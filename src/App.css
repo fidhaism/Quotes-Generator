@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
+.quote-container {/* App.css */
+  .App {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .quote-container {
+    margin-top: 50px;
+  }
+  
+  /* Additional styling for the quote container */
+  .quote-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .quote-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Styling for the generate button */
+  .generate-button {
+    margin-top: 20px;
+  }
+  
+  /* Styling for the loading spinner */
+  .spin-container {
+    margin-top: 50px;
+  }
+  
+  margin-top: 50px;
+}
